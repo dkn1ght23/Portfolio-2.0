@@ -1,0 +1,23 @@
+<header class="top-nav-header">
+  <div class="header-title">
+    <h1><a routerLinkActive="active" routerLink="">{{headerTitle}}</a> </h1>
+  </div>
+
+  <div class="header-menu-above">
+    <button class="header-menu-above-button" mat-raised-button routerLink="/auth/register" routerLinkActive="active" >Sign Up</button>
+    <button class="header-menu-above-button" mat-raised-button routerLink="/auth/login" routerLinkActive="active" >Sign In</button>
+    <button class="header-menu-above-button" mat-raised-button routerLink="/profile" routerLinkActive="active" >User Profile</button>
+  </div>
+
+  <mat-divider _ngcontent-c1=""
+               class="mat-divider mat-divider-horizontal"
+               role="separator"
+               aria-orientation="horizontal">
+  </mat-divider>
+
+  <div class="header-menu-below">
+    <a class="list-below" routerLink="/home" routerLinkActive="active">Home</a>
+    <a class="list-below" routerLink="/item" routerLinkActive="active">Item</a>
+    <a class="list-below" routerLink="/blog/create" routerLinkActive="active">Create Blog</a>
+  </div>
+</header>

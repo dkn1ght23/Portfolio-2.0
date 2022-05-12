@@ -1,14 +1,29 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { AppGenericRoutingModule } from './app-generic-routing.module';
+import { TopNavComponent } from './components/top-nav/top-nav.component';
+import {MatDividerModule} from "@angular/material/divider";
+import {RouterModule} from "@angular/router";
+import {MatMenuModule} from "@angular/material/menu";
+import {MatButtonModule} from "@angular/material/button";
+import {FlexLayoutModule} from "@angular/flex-layout";
+
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    TopNavComponent
+  ],
+  exports: [
+    TopNavComponent
+  ],
   imports: [
     CommonModule,
-    AppGenericRoutingModule
+    MatDividerModule,
+    RouterModule,
+    MatMenuModule,
+    MatButtonModule,
+    FlexLayoutModule
   ]
 })
 export class AppGenericModule { }

@@ -1,0 +1,55 @@
+.top-nav-header{
+  padding: 20px;
+  background-color: #368DC5;
+}
+
+.top-nav-header a,
+.top-nav-header a:active,
+.top-nav-header a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+.top-nav-header .header-title h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.top-nav-header .header-title {
+  width: 50%;
+  margin-left: 15%;
+  float: left;
+}
+
+.top-nav-header .header-menu-above{
+  //margin-left: 76%;
+  .header-menu-above-button{
+    margin-right: 25px;
+    border-radius: 10px;
+    outline: black;
+  }
+}
+
+.top-nav-header .header-menu-above {
+  font-size: 20px;
+}
+
+.top-nav-header .header-menu-below {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 15%;
+  //background-color: yellow;
+}
+
+.list-below{
+  margin-right: 35px;
+}
+
+.mat-divider{
+  border-top-width: 2px;
+  border-top-style: solid;
+  background-color: white;
+  width: 100%;
+  margin-top: 20px;
+  //margin-left: 15%;
+}

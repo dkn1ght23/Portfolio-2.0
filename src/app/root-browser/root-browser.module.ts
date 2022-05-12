@@ -1,22 +1,26 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 import { RootBrowserRoutingModule } from './root-browser-routing.module';
 import { RootDefaultComponent } from './components/root-default/root-default.component';
+import {RootIntroComponent} from "./components/root-intro/root-intro.component";
 import {BrowserModule} from "@angular/platform-browser";
-import {AppGenericModule} from "../app-generic/app-generic.module";
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatDividerModule} from "@angular/material/divider";
+import {FlexLayoutModule} from "@angular/flex-layout";
 
 
 @NgModule({
   declarations: [
-    RootDefaultComponent
+    RootDefaultComponent,
+    RootIntroComponent
   ],
   imports: [
     BrowserModule,
     RootBrowserRoutingModule,
-    AppGenericModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatDividerModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [
@@ -24,4 +28,5 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ]
 
 })
+
 export class RootBrowserModule { }

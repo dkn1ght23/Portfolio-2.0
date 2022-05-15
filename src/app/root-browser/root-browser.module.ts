@@ -8,12 +8,14 @@ import {BrowserModule} from "@angular/platform-browser";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDividerModule} from "@angular/material/divider";
 import {FlexLayoutModule} from "@angular/flex-layout";
+import { RootSkillsComponent } from './components/root-skills/root-skills.component';
 
 
 @NgModule({
   declarations: [
     RootDefaultComponent,
-    RootIntroComponent
+    RootIntroComponent,
+    RootSkillsComponent
   ],
   imports: [
     BrowserModule,

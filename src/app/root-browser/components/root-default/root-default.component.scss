@@ -54,3 +54,22 @@
   //margin-top: 20px;
   //margin-left: 15%;
 }
+
+
+.header-wrapper .header-menu a {
+  transition: all .5s ease;
+  text-align: center;
+  border-radius: 10px;
+
+  //color: #fff;
+  //border: 3px solid white;
+  //font-family:'Montserrat', sans-serif;
+  //text-transform: uppercase;
+  //line-height: 1;
+  //font-size: 17px;
+  //background-color : transparent;
+  //outline: none;
+}
+.header-wrapper .header-menu a:hover {
+  background-color: #001F3F;
+}

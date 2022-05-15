@@ -1,5 +1,5 @@
 .greeting-wrapper{
-  background-color: #B0A8B9;
+  background-color: #171c28;
   padding: 2%;
 }
 
@@ -147,4 +147,16 @@
 .greeting-wrapper .greeting-social-media .github:hover .tooltip,
 .greeting-wrapper .greeting-social-media .github:hover .tooltip:before{
   background: #333;
+}
+
+///
+
+.img{
+  will-change: transform;
+  transition: transform 450ms;
+}
+
+.img:hover {
+  transition: transform 125ms;
+  transform: translateY(-30px);
 }

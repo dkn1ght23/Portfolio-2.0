@@ -9,21 +9,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDividerModule} from "@angular/material/divider";
 import {FlexLayoutModule} from "@angular/flex-layout";
 import { RootSkillsComponent } from './components/root-skills/root-skills.component';
+import {MatIconModule} from "@angular/material/icon";
+import { RootEducationComponent } from './components/root-education/root-education.component';
 
 
 @NgModule({
   declarations: [
     RootDefaultComponent,
     RootIntroComponent,
-    RootSkillsComponent
+    RootSkillsComponent,
+    RootEducationComponent
   ],
-  imports: [
-    BrowserModule,
-    RootBrowserRoutingModule,
-    BrowserAnimationsModule,
-    MatDividerModule,
-    FlexLayoutModule
-  ],
+    imports: [
+        BrowserModule,
+        RootBrowserRoutingModule,
+        BrowserAnimationsModule,
+        MatDividerModule,
+        FlexLayoutModule,
+        MatIconModule
+    ],
   providers: [],
   bootstrap: [
     RootDefaultComponent

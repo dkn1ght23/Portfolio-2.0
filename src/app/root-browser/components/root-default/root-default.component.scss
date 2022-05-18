@@ -28,11 +28,11 @@
 
 .header-wrapper .header-icon{
   font-size: 20px;
-  a{
-    color: white;
+  .span-hover:hover{
+    color: #DE463B;
   }
-}
 
+}
 .header-wrapper .header-menu ul > li{
   list-style: none;
   display: list-item;

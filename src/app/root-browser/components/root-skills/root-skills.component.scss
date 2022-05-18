@@ -1,5 +1,6 @@
 .skill-wrapper{
   //width: 100%;
+  color: white;
   background-color: #171c28;
   padding: 2%;
 }
@@ -13,7 +14,7 @@
   height: 100%;
 }
 
-.skill-wrapper .skill-info{
+.skill-wrapper .skill-details{
   //responsive start
   display: flex;
   flex-direction: column;
@@ -26,10 +27,9 @@
     font-size: 30px;
     margin-bottom: 20px;
   }
-
 }
 
-.skill-wrapper .skill-info .skill-set{
+.skill-wrapper .skill-details .skill-info .skill-set{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -40,19 +40,41 @@
   //border: solid red;
 }
 
-.skill-wrapper .skill-info .skill-set .icon{
+.skill-wrapper .skill-details .skill-info .skill-set .icon{
   text-align: center;
   margin: 15px;
 }
 
-.skill-wrapper .skill-info .skill-set .icon:hover{
+.skill-wrapper .skill-details .skill-info .skill-set .icon:hover{
   color: #001F3F;
 }
 
-.skill-wrapper .skill-info .skill-set .icon i{
+.skill-wrapper .skill-details .skill-info .skill-set .icon i{
   font-size: 50px;
 }
 
-.skill-wrapper .skill-info .skill-set .icon p{
+.skill-wrapper .skill-details .skill-info .skill-set .icon p{
   font-size: 15px;
+}
+
+.skill-wrapper .skill-details .skill-info .skill-pro {
+
+  p{
+    font-size: 30px;
+  }
+
+  ul > li{
+    //display: flex;
+    //flex-direction: row;
+    //align-items: flex-start;
+    list-style: none;
+    font-size: 15px;
+    line-height: 2.0;
+
+    mat-icon{
+      margin-top: 18px;
+      margin-right: 5px;
+    }
+
+  }
 }

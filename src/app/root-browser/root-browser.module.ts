@@ -13,6 +13,7 @@ import {MatIconModule} from "@angular/material/icon";
 import { RootEducationComponent } from './components/root-education/root-education.component';
 import { RootCpComponent } from './components/root-cp/root-cp.component';
 import {MatCardModule} from "@angular/material/card";
+import { RootProjectComponent } from './components/root-project/root-project.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {MatCardModule} from "@angular/material/card";
     RootIntroComponent,
     RootSkillsComponent,
     RootEducationComponent,
-    RootCpComponent
+    RootCpComponent,
+    RootProjectComponent
   ],
     imports: [
         BrowserModule,

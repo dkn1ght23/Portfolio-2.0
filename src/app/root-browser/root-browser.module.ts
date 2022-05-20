@@ -11,6 +11,8 @@ import {FlexLayoutModule} from "@angular/flex-layout";
 import { RootSkillsComponent } from './components/root-skills/root-skills.component';
 import {MatIconModule} from "@angular/material/icon";
 import { RootEducationComponent } from './components/root-education/root-education.component';
+import { RootCpComponent } from './components/root-cp/root-cp.component';
+import {MatCardModule} from "@angular/material/card";
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { RootEducationComponent } from './components/root-education/root-educati
     RootDefaultComponent,
     RootIntroComponent,
     RootSkillsComponent,
-    RootEducationComponent
+    RootEducationComponent,
+    RootCpComponent
   ],
     imports: [
         BrowserModule,
@@ -26,7 +29,8 @@ import { RootEducationComponent } from './components/root-education/root-educati
         BrowserAnimationsModule,
         MatDividerModule,
         FlexLayoutModule,
-        MatIconModule
+        MatIconModule,
+        MatCardModule
     ],
   providers: [],
   bootstrap: [

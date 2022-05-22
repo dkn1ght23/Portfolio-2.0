@@ -1,0 +1,68 @@
+.research-wrapper{
+  background-color: #171c28;
+  padding: 4%;
+  color: white;
+
+  h1{
+    padding: 20px;
+    font-size: 40px;
+  }
+}
+
+.research-wrapper .research-cards{
+  background-color: #171c28;
+}
+
+.research-wrapper .research-cards .research-card-one{
+  background-color: #171c28;
+  color: white;
+  height: 350px;
+  width: 100%;
+
+  border-radius: 20px;
+  //border: 1px solid red;
+  padding: 2.6rem;
+  transition: all ease 0.2s;
+
+  .card-one-img{
+
+    img{
+      width: 25%;
+      //color: white;
+    }
+
+  }
+
+  .card-one-details{
+
+    .header{
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .title{
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+  }
+
+  .card-one-link{
+    width: 80px;
+    background-color: darkblue;
+    font-size: 20px;
+
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+}
+
+.research-wrapper .research-cards .research-card-one:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px -15px #aba9af;
+  background-color: #0044ff;
+}
+

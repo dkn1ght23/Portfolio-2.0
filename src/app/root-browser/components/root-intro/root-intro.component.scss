@@ -1,4 +1,5 @@
 .greeting-wrapper{
+  color: white;
   background-color: #171c28;
   padding: 2%;
 }
@@ -36,6 +37,7 @@
 //new stuff starts
 
 .greeting-wrapper .greeting-social-media{
+  margin-top: 40px;
   width: 100%;
   padding: 20px;
 }
@@ -147,6 +149,12 @@
 .greeting-wrapper .greeting-social-media .github:hover .tooltip,
 .greeting-wrapper .greeting-social-media .github:hover .tooltip:before{
   background: #333;
+}
+
+.greeting-wrapper .greeting-social-media .linkedin:hover span,
+.greeting-wrapper .greeting-social-media .linkedin:hover .tooltip,
+.greeting-wrapper .greeting-social-media .linkedin:hover .tooltip:before{
+  background: #0589D2;
 }
 
 ///

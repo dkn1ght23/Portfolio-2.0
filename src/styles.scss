@@ -23,7 +23,7 @@ $theme: mat.define-light-theme((
 }
 
 html{
-  font-family: "Lato", "Open Sans";
+  font-family: 'Lato', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -31,13 +31,14 @@ body{
   width: 100%;
   font-size: 16px;
 }
+
 mat-form-field{
   width: 100%;
 }
 
 @include mat.all-component-themes($theme);
 
-$typography-font-family: 'Roboto Mono';
+$typography-font-family: ''Lato', sans-serif';
 
 $theme-typography: mat.define-typography-config(
   $font-family: $typography-font-family

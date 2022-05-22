@@ -9,6 +9,69 @@
   margin: 0 auto;
 }
 
+//button left to right slide
+
+.header-wrapper .header-icon .span-a{
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  background: transparent;
+  border-radius: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  width: 165px;
+  overflow: hidden;
+}
+
+span {
+  z-index: 5;
+  position: relative;
+  transition: color 350ms ease;
+}
+.header-wrapper .header-icon .span-a:hover span{
+  color: white;
+}
+
+.header-wrapper .header-icon .span-a::after, .header-wrapper .header-icon .span-a::before{
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #171c28;
+  z-index: -1;
+}
+
+.header-wrapper .header-icon .span-a::before {
+  transform: translateX(-100%);
+  z-index: 1;
+}
+
+.header-wrapper .header-icon .span-a:hover:before {
+  transform: translateX(0);
+  transition: transform 350ms ease;
+}
+
+.header-wrapper .header-icon .span-a::after {
+  z-index: 0;
+  transform: translateX(100%);
+  transition: none;
+  transition: transform 350ms ease;
+}
+
+
+.header-wrapper .header-icon .span-a:hover:after {
+  opacity: 1;
+  transform: translateX(0);
+  transition: transform 350ms 360ms ease;
+}
+//
+
 .header-wrapper a,
 .header-wrapper a:active,
 .header-wrapper a:visited {
@@ -41,8 +104,6 @@
   border-top-style: solid;
   background-color: #A1AAB1;
   width: 100%;
-  //margin-top: 20px;
-  //margin-left: 15%;
 }
 
 
@@ -50,15 +111,6 @@
   transition: all .5s ease;
   text-align: center;
   border-radius: 10px;
-
-  //color: #fff;
-  //border: 3px solid white;
-  //font-family:'Montserrat', sans-serif;
-  //text-transform: uppercase;
-  //line-height: 1;
-  //font-size: 17px;
-  //background-color : transparent;
-  //outline: none;
 }
 .header-wrapper .header-menu a:hover {
   background-color: #001F3F;

@@ -15,6 +15,7 @@ import { RootCpComponent } from './components/root-cp/root-cp.component';
 import {MatCardModule} from "@angular/material/card";
 import { RootProjectComponent } from './components/root-project/root-project.component';
 import { RootResearchComponent } from './components/root-research/root-research.component';
+import { RootContactComponent } from './components/root-contact/root-contact.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { RootResearchComponent } from './components/root-research/root-research.
     RootEducationComponent,
     RootCpComponent,
     RootProjectComponent,
-    RootResearchComponent
+    RootResearchComponent,
+    RootContactComponent
   ],
     imports: [
         BrowserModule,

@@ -1,13 +1,12 @@
 .skill-wrapper{
-  //width: 100%;
   color: white;
   background-color: #171c28;
-  padding: 2%;
-  //border: 1px solid red;
+  padding: 4%;
 }
 
 .skill-wrapper .skill-img{
   width: 100%;
+  //border: 1px solid red;
 }
 
 .skill-wrapper .skill-img .skill-info-img{
@@ -16,12 +15,6 @@
 }
 
 .skill-wrapper .skill-details{
-  //responsive start
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  //responsive end
-
   width: 100%;
   padding: 30px;
   .skill-info-h{
@@ -31,12 +24,6 @@
 }
 
 .skill-wrapper .skill-details .skill-info .skill-set{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: space-evenly;
   width: 100%;
   //border: solid red;
 }
@@ -47,7 +34,7 @@
 }
 
 .skill-wrapper .skill-details .skill-info .skill-set .icon:hover{
-  color: #001F3F;
+  color: gray;
 }
 
 .skill-wrapper .skill-details .skill-info .skill-set .icon i{
@@ -65,9 +52,6 @@
   }
 
   ul > li{
-    //display: flex;
-    //flex-direction: row;
-    //align-items: flex-start;
     list-style: none;
     font-size: 15px;
     line-height: 2.0;

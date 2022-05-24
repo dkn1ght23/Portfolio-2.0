@@ -12,7 +12,7 @@
 }
 
 .education-wrapper .education-cards .card-one{
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
   .bsc{
     padding-left: 20px;
     display: flex;
@@ -98,4 +98,8 @@
 .education-wrapper .education-cards .card-two:hover::after{
   width: 100%;
   background-color: white;
+}
+
+mat-icon{
+  width: 100%;
 }

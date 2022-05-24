@@ -3,7 +3,7 @@
   padding: 4%;
   display: flex;
   flex-direction: column;
-  //flex-wrap: wrap;
+  flex-wrap: wrap;
   color: white;
 
   h1{
@@ -18,19 +18,12 @@
 }
 
 .cp-wrapper .cp-cards{
-  border: solid red;
-}
-
-.cp-wrapper .cp-cards .codeforces{
-  margin: 10px;
-}
-
-.cp-wrapper .cp-cards .cp{
-  margin: 10px;
-}
-
-.cp-wrapper .cp-cards .codechef{
-  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 img{
@@ -38,8 +31,9 @@ img{
 }
 
 .mat-cards{
-  width: 380px;
+  width: 480px;
   height: 380px;
+  background-color: #171c28;
 
   display: flex;
   flex-direction: column;

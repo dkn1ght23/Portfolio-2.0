@@ -18,6 +18,8 @@
 }
 
 .cp-wrapper .cp-cards{
+  width: 100%;
+  //border: 1px solid red;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -30,19 +32,17 @@ img{
   width: 250px;
 }
 
+.cp-wrapper .cp-cards .card-one{
+  //border: 1px solid yellow;
+  width: 33%;
+  min-width: 450px;
+}
+
 .mat-cards{
-  width: 480px;
-  height: 380px;
+  width: 100%;
+  height: 400px;
   background-color: #171c28;
 
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: space-evenly;
-
-  padding: 2.6rem;
   border-radius: 20px;
   border: 1px solid hsla(0,0%,82.7%,.397);
 

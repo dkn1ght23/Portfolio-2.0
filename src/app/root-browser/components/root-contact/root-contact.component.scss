@@ -1,63 +1,39 @@
 .contact-wrapper{
-  padding: 4%;
   background-color: #171c28;
   color: white;
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  //justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
-
-  .contact-left{
-    .contact-header{
-      //border: solid purple;
-    }
-    .contact-content{
-      //border: solid green;
-    }
-
-  }
-  .contact-right{
-    //width: 100%;
-    .contact-img{
-      //border: solid black;
-      img{
-        width: 500px;
-      }
-    }
-  }
+  padding: 4%;
 }
 
-.contact-wrapper .contact-header{
-  margin-bottom: 15px;
-  h1{
-    font-size: 65px;
-    margin-bottom: 10px;
-  }
-  p{
-    font-size: 25px;
-    margin-bottom: 10px;
-  }
+//left div
+
+.contact-wrapper .contact-left{
+  width: 100%;
 }
 
-.contact-wrapper .contact-content{
-  h3{
-    font-size: 45px;
+.contact-wrapper .contact-left .info-header{
+  width: 100%;
+  .info-p1{
+    font-size: 70px;
+  }
+  .info-p2{
+    font-size: 20px;
+  }
+  .info-p3{
+    font-size: 50px;
   }
 }
 
 //new stuff starts
 
-.contact-wrapper .greeting-social-media{
+
+.contact-wrapper .contact-left .info-content .greeting-social-media{
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.contact-wrapper .greeting-social-media .icon{
-  margin: 0 20px;
+.contact-wrapper .contact-left .info-content .greeting-social-media .icon{
+  margin-right: 20px;
   text-align: center;
   cursor: pointer;
   display: flex;
@@ -69,7 +45,7 @@
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.contact-wrapper .greeting-social-media .icon span{
+.contact-wrapper .contact-left .info-content .greeting-social-media .icon span{
   display: block;
   height: 60px;
   width: 60px;
@@ -81,16 +57,16 @@
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.contact-wrapper .greeting-social-media .icon span i{
+.contact-wrapper .contact-left .info-content .greeting-social-media .icon span i{
   font-size: 25px;
   line-height: 60px;
 }
 
-.contact-wrapper .greeting-social-media .icon:hover span{
+.contact-wrapper .contact-left .info-content .greeting-social-media .icon:hover span{
   color: #fff;
 }
 
-.contact-wrapper .greeting-social-media .icon .tooltip{
+.contact-wrapper .contact-left .info-content .greeting-social-media .icon .tooltip{
   position: absolute;
   top: 0;
   z-index: 1;
@@ -106,7 +82,7 @@
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.contact-wrapper .greeting-social-media .icon:hover .tooltip{
+.contact-wrapper .contact-left .info-content .greeting-social-media .icon:hover .tooltip{
   top: 70px;
   opacity: 1;
   pointer-events: auto;
@@ -124,50 +100,47 @@
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.contact-wrapper .greeting-social-media .icon:hover span{
+.contact-wrapper .contact-left .info-content .greeting-social-media .icon:hover span{
   color: #fff;
 }
 
-.contact-wrapper .greeting-social-media .icon:hover .span,
-.contact-wrapper .greeting-social-media .icon:hover .tooltip{
+.contact-wrapper .contact-left .info-content .greeting-social-media .icon:hover .span,
+.contact-wrapper .contact-left .info-content .greeting-social-media .icon:hover .tooltip{
   text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
 }
 
-.contact-wrapper .greeting-social-media .fb:hover span,
-.contact-wrapper .greeting-social-media .fb:hover .tooltip,
-.contact-wrapper .greeting-social-media .fb:hover .tooltip:before{
+.contact-wrapper .contact-left .info-content .greeting-social-media .fb:hover span,
+.contact-wrapper .contact-left .info-content .greeting-social-media .fb:hover .tooltip,
+.contact-wrapper .contact-left .info-content .greeting-social-media .fb:hover .tooltip:before{
   background: #3B5999;
 }
 
-.contact-wrapper .greeting-social-media .twitter:hover span,
-.contact-wrapper .greeting-social-media .twitter:hover .tooltip,
-.contact-wrapper .greeting-social-media .twitter:hover .tooltip:before{
+.contact-wrapper .contact-left .info-content .greeting-social-media .twitter:hover span,
+.contact-wrapper .contact-left .info-content .greeting-social-media .twitter:hover .tooltip,
+.contact-wrapper .contact-left .info-contentr .greeting-social-media .twitter:hover .tooltip:before{
   background: #46C1F6;
 }
 
-.contact-wrapper .greeting-social-media .gmail:hover span,
-.contact-wrapper .greeting-social-media .gmail:hover .tooltip,
-.contact-wrapper .greeting-social-media .gmail:hover .tooltip:before{
+.contact-wrapper .contact-left .info-content .greeting-social-media .gmail:hover span,
+.contact-wrapper .contact-left .info-content .greeting-social-media .gmail:hover .tooltip,
+.contact-wrapper .contact-left .info-content .greeting-social-media .gmail:hover .tooltip:before{
   background: #DE463B;
 }
 
-.contact-wrapper .greeting-social-media .instagram:hover span,
-.contact-wrapper .greeting-social-media .instagram:hover .tooltip,
+.contact-wrapper .contact-left .info-content .greeting-social-media .instagram:hover span,
+.contact-wrapper .contact-left .info-content .greeting-social-media .instagram:hover .tooltip,
 .contact-wrapper .greeting-social-media .instagram:hover .tooltip:before{
   background: #e1306c;
 }
 
-.contact-wrapper .greeting-social-media .github:hover span,
-.contact-wrapper .greeting-social-media .github:hover .tooltip,
-.contact-wrapper .greeting-social-media .github:hover .tooltip:before{
+.contact-wrapper .contact-left .info-content .greeting-social-media .github:hover span,
+.contact-wrapper .contact-left .info-content .greeting-social-media .github:hover .tooltip,
+.contact-wrapper .contact-left .info-content .greeting-social-media .github:hover .tooltip:before{
   background: #333;
 }
 
-.contact-wrapper .greeting-social-media .linkedin:hover span,
-.contact-wrapper .greeting-social-media .linkedin:hover .tooltip,
-.contact-wrapper .greeting-social-media .linkedin:hover .tooltip:before{
+.contact-wrapper .contact-left .info-content .greeting-social-media .linkedin:hover span,
+.contact-wrapper .contact-left .info-content .greeting-social-media .linkedin:hover .tooltip,
+.contact-wrapper .contact-left .info-content .greeting-social-media .linkedin:hover .tooltip:before{
   background: #0589D2;
 }
-
-
-
